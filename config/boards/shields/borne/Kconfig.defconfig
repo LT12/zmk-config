@@ -1,10 +1,11 @@
 # Copyright (c) 2020 The ZMK Contributors
 # # SPDX-License-Identifier: MIT
 
+if SHIELD_BORNE_LEFT_
+
 config ZMK_KEYBOARD_NAME
  	default "Borne"
 
-if SHIELD_BORNE_RIGHT
 
 config ZMK_SPLIT_ROLE_CENTRAL
 	default y
